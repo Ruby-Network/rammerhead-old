@@ -4,7 +4,7 @@
   "description": "User friendly web proxy powered by testcafe-hammerhead",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node server.js",
     "build": "node src/build.js",
     "bstart": "npm run build && npm run start",
     "test": "npm run format && npm run lint && npm run build",
@@ -25,6 +25,7 @@
   "dependencies": {
     "async-exit-hook": "^2.0.1",
     "cookie": "^0.5.0",
+    "fastify": "^4.26.2",
     "keyv-lru-files": "github:holy-unblocker/keyv-lru-files",
     "mime": "^2.5.2",
     "testcafe-hammerhead": "24.5.18",
