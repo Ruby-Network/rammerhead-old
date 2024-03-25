@@ -53,7 +53,7 @@ class RammerheadSession extends Session {
         this.isHttp2Disabled = () => true;
 
         this.injectable.scripts.push(...prependScripts);
-        this.injectable.scripts.push('/rammerhead.js');
+        this.injectable.scripts.push('/rammer/rammerhead.js');
 
         this.id = id;
         this.shuffleDict = disableShuffling ? null : StrShuffler.generateDictionary();
