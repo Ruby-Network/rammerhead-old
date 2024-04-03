@@ -1,8 +1,9 @@
 {
-  "name": "rammerhead",
+  "name": "@rubynetwork/rammerhead",
   "version": "1.2.41-ruby.2",
   "description": "User friendly web proxy powered by testcafe-hammerhead",
   "main": "src/index.js",
+  "private": false,
   "scripts": {
     "start": "node server.js",
     "build": "node src/build.js",
