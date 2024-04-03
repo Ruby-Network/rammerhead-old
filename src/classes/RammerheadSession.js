@@ -52,7 +52,7 @@ class RammerheadSession extends Session {
         // (status code 0, for example, will crash rammerhead)
         this.isHttp2Disabled = () => true;
 
-        this.injectable.scripts.push(...prependScripts);
+        this.injectable.scripts.push('/rammer/' + ...prependScripts);
         this.injectable.scripts.push('/rammer/rammerhead.js');
 
         this.id = id;
