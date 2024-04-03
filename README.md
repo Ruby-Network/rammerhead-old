@@ -5,6 +5,12 @@ This fork is based around running a rammerhead under a reverse proxy and easy to
 > [!IMPORTANT]
 > This is designed to run on the directory `/rammer/` any other route won't work
 
+The package is able to be installed via npm
+
+```bash
+npm i @rubynetwork/rammerhead
+```
+
 Examples using This fork:
 
 - [Ruby](https://ruby.rubynetwork.co)
