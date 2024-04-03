@@ -1,39 +1,22 @@
-# rammerhead
+# Rammerhead
 
-> proxy based on testcafe-hammerhead (password is `sharkie4life`)
+This fork is based around running a rammerhead under a reverse proxy and easy to run with docker
 
-Demo link: https://demo-opensource.rammerhead.org
+> [!IMPORTANT]
+> This is designed to run on the directory `/rammer/` any other route won't work
 
-See [PACKAGE.md](./PACKAGE.md) for information on how to build this for your website-aio bundle.
+Examples using This fork:
 
-Polished closed-source-for-now browser version: https://browser.rammerhead.org (more links by awesome community members in the discord server at the end of readme)
+- [Ruby](https://ruby.rubynetwork.co)
+  - [Github](https://github.com/ruby-network/ruby)
 
-## Supporting me and contributing
+Other forks:
 
-Server infrastructure costs money and developing this project consumes a lot of my time, so I would appreciate it greatly if you become a Patreon member: https://www.patreon.com/rammerhead
+- https://github.com/nebulaservices/rammerhead
 
-## Who is this package for
+(The fork that most other forks are based off of is below)
+- https://github.com/holy-unblocker/rammerhead
 
-Package is for those who want a fully-configurable proxy that works on many sites
+Original:
 
-## Effectiveness of proxy
-
-This proxy supports proxying
-
--   basically everything except google logins
-
-## Features of proxy
-
-The proxy allows users to create a "session". When they access their session, their localStorage and cookies will be synced with rammerhead. This allows for accurately mocking cookied requests and conveniently save their logins even if they switch devices. This also enables users to configure a custom HTTP proxy server for rammerhead to connect to for the session.
-
-## Installing and running
-
-Rammerhead recommends you to have at least **node v16** to be installed. Once you installed nodejs, clone the repo, then run `npm install` and `npm run build`.
-
-After, configure your settings in [src/config.js](src/config.js). If you wish to consistently pull updates from this repo without the hassle of merging, create `config.js` in the root folder so they override the configs in `src/`.
-
-Finally run the following to start rammerhead: `node src/server.js`
-
-## Discord server
-
-For any user-help non-issue related questions, especially pertaining to Rammerhead Browser, please ask them here: [Rammerhead Support Server](https://discord.gg/VNT4E7gN5Y).
+https://github.com/binary-person/rammerhead
