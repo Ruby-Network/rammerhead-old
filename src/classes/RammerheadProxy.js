@@ -425,7 +425,7 @@ class RammerheadProxy extends Proxy {
             ),
             contentType: 'application/x-javascript'
         });
-        this.GET('/api/shuffleDict', (req, res) => {
+        this.GET('/rammer/api/shuffleDict', (req, res) => {
             const { id } = new URLPath(req.url).getParams();
             if (!id || !this.openSessions.has(id)) {
                 return httpResponse.badRequest(this.logger, req, res, this.loggerGetIP(req), 'Invalid session id');

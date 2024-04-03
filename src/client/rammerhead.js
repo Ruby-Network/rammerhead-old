@@ -187,7 +187,7 @@
             console.warn('cannot get session id from url');
             return;
         }
-        request.open('GET', '/api/shuffleDict?id=' + sessionId, false);
+        request.open('GET', '/rammer/api/shuffleDict?id=' + sessionId, false);
         request.send();
         if (request.status !== 200) {
             console.warn(
