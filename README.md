@@ -1,3 +1,6 @@
+# Archived
+- Please use: https://github.com/ruby-network/rammerhead for and updated version
+
 # Rammerhead
 
 This fork is based around running a rammerhead under a reverse proxy and easy to run with docker
