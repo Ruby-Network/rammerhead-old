@@ -1,5 +1,5 @@
 # Archived
-- Please use: https://github.com/ruby-network/rammerhead for and updated version
+- Please use: https://github.com/ruby-network/rammerhead for an updated version
 
 # Rammerhead
 
